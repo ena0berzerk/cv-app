@@ -4,14 +4,14 @@
   padding: 18px;
 
   display: grid;
-  grid-template-rows: 0.4fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
   gap: 8px 0px;
 }
 
 .inputWrapper input {
   margin-bottom: 14px;
 
-  &:last-child {
-    margin-bottom: 0px;
+  &:last-of-type {
+    margin-bottom: 28px;
   }
 }

@@ -2,10 +2,15 @@ import React from "react";
 
 import classes from "./Input.module.scss";
 
-export default function Input({ type, placeholder }) {
+export default function Input({ type, placeholder, style }) {
   return (
     <>
-      <input className={classes.root} type={type} placeholder={placeholder} />
+      <input
+        style={style}
+        className={classes.root}
+        type={type}
+        placeholder={placeholder}
+      />
     </>
   );
 }

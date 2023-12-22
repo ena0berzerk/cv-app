@@ -4,13 +4,27 @@
   border: 1px solid tomato;
 
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  justify-content: space-around;
-  align-items: center;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: start;
 
   grid-area: 2 / 1 / 3 / 2;
 
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.root div {
+  margin-bottom: 22px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }

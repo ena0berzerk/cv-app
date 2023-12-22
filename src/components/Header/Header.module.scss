@@ -1,0 +1,19 @@
+.root {
+  padding: 1rem 2rem;
+  color: tomato;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+  justify-content: center;
+  align-items: center;
+
+  grid-area: 1 / 1 / 2 / 2;
+
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
